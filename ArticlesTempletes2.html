@@ -40,11 +40,17 @@
 		font-weight: normal;
 	}
 	
-	carousel-inner img {
-		width: 100%;
-		background-color: gray;
+	<!-- an active class to the current link to let the user know which page he or she is on  -->
+	.active {
+		background-color: #4CAF50;
 	}
-	
+	.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: 100%;
+			margin: auto;
+			background: black;
+	}
+ 
 	.dropdown-menu {
 		background-color: black;
 		color: edd508;
