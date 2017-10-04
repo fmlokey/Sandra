@@ -29,6 +29,14 @@
       height: 100%;
     }
     
+	 /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
 	
 	body {
 		background-color: black;
@@ -179,16 +187,13 @@
         </div>
         <button type="submit" class="btn btn-success">Submit</button>
       </form>
-      <br><br>
-	  
+      	  
     </div>
-	<br>
-	<br>
+
     <div class="col-sm-2 sidenav">
       <div class="well">
         <p>ADS</p>
-      </div>
-	  
+      </div>	  
       <div class="well">
         <p>ADS</p>
       </div>
