@@ -62,6 +62,51 @@
 		color: white;
     }
   </style>
+  <script language="javascript">
+	// Activate Carousel
+		$("#myCarousel").carousel();
+		
+	// Enable Carousel Indicators
+		$(".item1").click(function(){
+		$("#myCarousel").carousel(0);
+		});
+		$(".item2").click(function(){
+		$("#myCarousel").carousel(1);
+		});
+		$(".item3").click(function(){
+		$("#myCarousel").carousel(2);
+		});
+		
+	// Enable Carousel Controls
+		$(".left").click(function(){
+			$("#myCarousel").carousel("prev");
+		});
+		$(".right").click(function(){
+			$("#myCarousel").carousel("next");
+		});
+		
+		// Activate Carousel
+		$("#webCarousel").carousel();
+		
+	// Enable Carousel Indicators
+		$(".item1").click(function(){
+		$("#webCarousel").carousel(0);
+		});
+		$(".item2").click(function(){
+		$("#webCarousel").carousel(1);
+		});
+		$(".item2").click(function(){
+		$("#webCarousel").carousel(2);
+		});
+	// Enable Carousel Controls
+		$(".left").click(function(){
+			$("#webCarousel").carousel("prev");
+		});
+		$(".right").click(function(){
+			$("#webCarousel").carousel("next");
+		});
+  
+  </script>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -105,10 +150,26 @@
   </div>
 </nav>
 
-
-<div class="carousel-inner img">      
-    <img src="SandraBondOpening5.png" width="100%" height="auto" alt="SandraTicer">
-</div>
+<div id="myCarousel" class="carousel slide" data-interval="10000">
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" class="item1 active"></li>
+		<li data-target="#myCarousel" class="item2"></li>
+		<li data-target="#myCarousel" class="item3"></li>
+	</ol>
+	
+		<div class="carousel-inner">
+			<div class="item1 active">	 
+				<img src="SandraBondOpening5.png" width="100%" height="auto" alt="SandraTicerSlide1">
+			</div>
+			
+			<div class="item2">	 
+				<img src="FemaleSelfDefenseBanner2.jpg" width="100%" height="auto" alt="SandraTicerSlide2">
+			</div>
+			
+			<div class="item3">	 
+				<img src="YesISaidThatBanner.jpg" width="100%" height="auto" alt="SandraTicerSlide3">
+			</div>
+		</div>
 <br>
 
 <div class="container-fluid">
