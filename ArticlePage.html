@@ -11,6 +11,7 @@
 		$(document).ready(function(){
 		$('[data-toggle="tooltip"]').tooltip();
 		});
+		
   </script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -88,6 +89,7 @@
 		padding: 25px;
 		color: white;
     }
+	
   </style>
  
 </head>
@@ -106,10 +108,16 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#classes">CLASSES</a></li>
-		<li><a href="#contact">CONTACT</a></li>
 		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">CLASSES
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu">
+				</li><a href="#Classes">Classes</a></li><br>
+				</li><a href="#PrivateLessons">Private Lessons</a></li>
+       	<li><a href="#contact">CONTACT</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">TOPICS
 				<span class="caret"></span>
 			</a>
 			<ul class="dropdown-menu">
@@ -122,9 +130,13 @@
 				</li><a href="#Tennessee">Tennessee</a></li><br>
 				</li><a href="#Texas">Texas</a></li><br>
 				</li><a href="#SelfDefense">SelfDefense</a></li><br>
+				</li><a href="#Humor">Humor</a></li><br>
+				</li><a href="#Military">Military</a></li><br>
+				</li><a href="#LawEnforcement">LifeEnforcement</a></li><br>
+				</li><a href="#GunAndEquipmentMaintenance">GunAndEquipmentMaintenance</a></li><br>
 				</li><a href="#Shopping">Shopping</a></li><br>
 				</li><a href="#Lessons">Lessons</a></li><br>
-				</li><a href="#LifeStyle">LifeStyle</a></li><br>
+				</li><a href="#LifeStyle">LifeStyle</a></li>
 			
 			</ul>
 		</li>		
@@ -157,16 +169,13 @@
 			<li><a href="#section12">Lifestyle</a></li>
 			<li><a href="#section13">Cooking</a></li>
 			<li><a href="#section14">Outdoor Tips</a></li>
-			<li><a href="#section15">Ask Sandra</a></li>
-			<li><a href="#section16">Humor</a></li>
+			<li><a href="#section15">Gun And Equipment Maintenance</a></li>
+			<li><a href="#section16">Military</a></li>
+			<li><a href="#section17">Law Enforcement</a></li>
+			<li><a href="#section18">Ask Sandra</a></li>
+			<li><a href="#section19">Humor</a></li>
 		</ul><br>
-		<div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
+		
       </div>
     </div>
 
