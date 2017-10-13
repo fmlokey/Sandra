@@ -95,9 +95,9 @@
     </div> 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#home">HOME</a></li>
+        <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
-        <li class="dropdown">
+        <li class="dropdown" class="active">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#">CLASSES
 				<span class="caret"></span>
 			</a>
@@ -201,12 +201,27 @@
 		<div class="col-sm-8" style="background-color: white;"> 
 			<h3>Class Name</h3> 
 			<p>The summary of the class to interest the reader into contacting about taking the class.</p><br>
-			<h4>Upcoming Dates and Locations</h4>
-			<p>Date			Location</p><br>
-			<p>Date			Location</p><br>
+			<div class="table-responsive">
+			<table class="table">
+				<thread>
+					<tr>
+						<th><h4>Upcoming Dates and Locations</h4></th>
+					</tr>
+				</thread>
+				<tbody>
+					<tr>
+						<td><p>Date1</p></td>
+						<td>Location1</p></td>
+					</tr>
+					<tr>
+						<td><p>Date2</p></td>
+						<td>Location2</p></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
 			<br>
-				
- 		</div>
+		</div>
 		<div class="col-sm-4" style="background-color: white;">
 			<a href=".html" data-toggle="tooltip" title=""> 
 			<img src="pro NRA.jpg" class="img-responsive" style="width:100%" alt=""></a> 
